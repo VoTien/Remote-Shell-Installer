@@ -38,11 +38,11 @@ class pc extends Shell{
 		configCommand.put("prompt and make changes",'');
 		configCommand.put("PRESS <ENTER> TO CONTINUE","");
 		configCommand.put("DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?","y");
-		configCommand.put("ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE","1");
+		configCommand.put("Please select the Installation Type for this Performance Center installation","1");
 		configCommand.put("ENTER AN ABSOLUTE PATH", extractedPath);
 		configCommand.put("INSTALL FOLDER IS","y");
-		configCommand.put("requires a database password to continue",mysqlPwd);
-		configCommand.put("Confirm the database password",mysqlPwd);
+		configCommand.put("Enter the Password",mysqlPwd);
+		configCommand.put("Re-enter the Password",mysqlPwd);
 		configCommand.put("Specify the location where the installer should create the MySQL","")
 		configCommand.put('Console Service',"\r");
 		configCommand.put('Set the maximum memory','\r');
